@@ -20,10 +20,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies & Browser
-        run: |
-          pip install beautifulsoup4 playwright
-          playwright install chromium
+      - name: Install dependencies
+        run: pip install requests
 
       - name: Run EPG scraper
         run: python scraper.py
