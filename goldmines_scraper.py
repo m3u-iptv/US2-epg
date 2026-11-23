@@ -1,134 +1,93 @@
 import gzip
 import re
 import xml.etree.ElementTree as ET
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
-from curl_cffi import requests as cffi_requests
 import requests
 
-URL = "https://www.freedishtoday.com/goldmines-today-schedule-for-free-dish-users/"
+PRIMARY_URL = "https://freedish.app/channel/33"
 CHANNEL_ID = "goldmines.in"
 CHANNEL_NAME = "Goldmines"
 
+IST = timezone(timedelta(hours=5, minutes=30))
+# Matches "12:00 am - 1:33 am" or "10:34 pm - 5:29 am"
+RANGE_PATTERN = re.compile(
+    r"^(\d{1,2}:\d{2}\s*[ap]m)\s*[-–]\s*(\d{1,2}:\d{2}\s*[ap]m)$", re.I
+)
 
-def get_lines():
-  # 1. Try curl_cffi (Chrome TLS impersonation)
-  try:
-    resp = cffi_requests.get(URL, impersonate="chrome120", timeout=25)
-    if resp.status_code == 200 and "AM" in resp.text:
-      soup = BeautifulSoup(resp.text, "html.parser")
-      lines = [line.strip() for line in soup.stripped_strings if line.strip()]
-      if len(lines) > 15:
-        print("Fetched via curl_cffi")
-        return lines
-  except Exception as e:
-    print(f"curl_cffi error: {e}")
 
-  # 2. Fallback to Jina Reader
-  try:
-    resp = requests.get(f"https://jina.ai{URL}", timeout=25)
-    if resp.status_code == 200 and "AM" in resp.text:
-      clean_text = re.sub(r"[*#_`]", "", resp.text)
-      lines = [line.strip() for line in clean_text.split("\n") if line.strip()]
-      if len(lines) > 15:
-        print("Fetched via Jina Reader")
-        return lines
-  except Exception as e:
-    print(f"Jina error: {e}")
+def parse_freedish_app():
+  headers = {
+      "User-Agent": (
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+          " (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+      )
+  }
+  resp = requests.get(PRIMARY_URL, headers=headers, timeout=25)
+  resp.raise_for_status()
 
-  return []
+  soup = BeautifulSoup(resp.text, "html.parser")
+  lines = [line.strip() for line in soup.stripped_strings if line.strip()]
+
+  today_date = datetime.now(IST).replace(
+      hour=0, minute=0, second=0, microsecond=0
+  )
+  current_date = today_date
+  last_start_minutes = -1
+  programs = []
+
+  for i, line in enumerate(lines):
+    match = RANGE_PATTERN.match(line)
+    if match and i + 1 < len(lines):
+      start_str, end_str = match.group(1), match.group(2)
+      title = lines[i + 1]
+
+      # Skip table header or utility links
+      if title.lower() in ("information", "alarm", "get .ics file"):
+        continue
+
+      s_time = datetime.strptime(start_str.upper(), "%I:%M %p")
+      e_time = datetime.strptime(end_str.upper(), "%I:%M %p")
+      start_minutes = s_time.hour * 60 + s_time.minute
+
+      if last_start_minutes != -1 and start_minutes < last_start_minutes:
+        current_date += timedelta(days=1)
+      last_start_minutes = start_minutes
+
+      start_dt = current_date.replace(hour=s_time.hour, minute=s_time.minute)
+      end_dt = current_date.replace(hour=e_time.hour, minute=e_time.minute)
+      if end_dt <= start_dt:
+        end_dt += timedelta(days=1)
+
+      programs.append({
+          "title": title,
+          "desc": f"{title} - Hindi Dubbed Movie on Goldmines",
+          "start": start_dt.strftime("%Y%m%d%H%M%S +0530"),
+          "stop": end_dt.strftime("%Y%m%d%H%M%S +0530"),
+      })
+
+  return programs
 
 
 def build_goldmines_epg():
-  lines = get_lines()
-  schedule_dict = {}
-  current_date = None
-
-  date_pattern = re.compile(
-      r"(\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{4})",
-      re.I,
-  )
-  time_pattern = re.compile(r"^(\d{1,2}:\d{1,2}\s*[AP]M)$", re.I)
-
-  for i, line in enumerate(lines):
-    date_match = date_pattern.search(line)
-    if date_match:
-      raw_date = date_match.group(1)
-      for fmt in ("%d %b %Y", "%d %B %Y"):
-        try:
-          current_date = datetime.strptime(raw_date, fmt)
-          break
-        except ValueError:
-          continue
-      continue
-
-    time_match = time_pattern.match(line)
-    if time_match and current_date and i >= 1:
-      raw_time = time_match.group(1).upper().replace(" ", "")
-      parts = re.match(r"(\d{1,2}):(\d{1,2})([AP]M)", raw_time)
-      if parts:
-        hr, mn, ampm = parts.groups()
-        fixed_time = f"{int(hr):02d}:{int(mn):02d} {ampm}"
-        dt_start = datetime.strptime(
-            f"{current_date.strftime('%Y-%m-%d')} {fixed_time}",
-            "%Y-%m-%d %I:%M %p",
-        )
-
-        # Movie title detect karein ("Hindi | Film" skip karke)
-        title = "Movie"
-        for back in range(1, 5):
-          if i - back >= 0:
-            candidate = lines[i - back].strip()
-            if (
-                candidate
-                and not any(
-                    skip in candidate.lower()
-                    for skip in [
-                        "hindi",
-                        "film",
-                        "goldmines",
-                        "schedule",
-                        "|",
-                        "source:",
-                    ]
-                )
-                and not date_pattern.search(candidate)
-            ):
-              title = candidate
-              break
-
-        if dt_start not in schedule_dict or schedule_dict[dt_start] == "Movie":
-          schedule_dict[dt_start] = title
-
-  # Chronological order mein sort karein
-  sorted_items = sorted(schedule_dict.items(), key=lambda item: item[0])
-  print(f"Total Goldmines programs scraped: {len(sorted_items)}")
-
-  # XMLTV structure banayein
-  tv = ET.Element("tv", {"generator-info-name": "Goldmines-FreeDish-EPG"})
+  tv = ET.Element("tv", {"generator-info-name": "Goldmines-Custom-EPG"})
   ch_elem = ET.SubElement(tv, "channel", {"id": CHANNEL_ID})
   ET.SubElement(ch_elem, "display-name").text = CHANNEL_NAME
 
-  for idx, (start_dt, title) in enumerate(sorted_items):
-    if idx + 1 < len(sorted_items):
-      stop_dt = sorted_items[idx + 1][0]
-    else:
-      stop_dt = start_dt + timedelta(hours=2, minutes=30)
-
-    prog_elem = ET.SubElement(
-        tv,
-        "programme",
-        {
-            "start": start_dt.strftime("%Y%m%d%H%M%S +0530"),
-            "stop": stop_dt.strftime("%Y%m%d%H%M%S +0530"),
-            "channel": CHANNEL_ID,
-        },
-    )
-    ET.SubElement(prog_elem, "title", {"lang": "hi"}).text = title
-    ET.SubElement(prog_elem, "desc", {"lang": "hi"}).text = (
-        f"{title} - Hindi Dubbed Movie on Goldmines"
-    )
-    ET.SubElement(prog_elem, "category", {"lang": "en"}).text = "Movie"
+  try:
+    progs = parse_freedish_app()
+    for p in progs:
+      prog_elem = ET.SubElement(
+          tv,
+          "programme",
+          {"start": p["start"], "stop": p["stop"], "channel": CHANNEL_ID},
+      )
+      ET.SubElement(prog_elem, "title", {"lang": "hi"}).text = p["title"]
+      ET.SubElement(prog_elem, "desc", {"lang": "hi"}).text = p["desc"]
+      ET.SubElement(prog_elem, "category", {"lang": "en"}).text = "Movie"
+    print(f"Success: {CHANNEL_NAME} ({len(progs)} shows scraped)")
+  except Exception as e:
+    print(f"Error scraping {CHANNEL_NAME}: {e}")
 
   xml_bytes = ET.tostring(tv, encoding="utf-8", xml_declaration=True)
   with gzip.open("goldmines.xml.gz", "wb") as f:
@@ -137,4 +96,4 @@ def build_goldmines_epg():
 
 if __name__ == "__main__":
   build_goldmines_epg()
-    
+  
