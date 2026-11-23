@@ -1,7 +1,7 @@
-name: Update EPG
+name: Auto Update EPG
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 2 * * *' # Har roz subah 7:30 AM IST par auto-update hoga
   workflow_dispatch:
 
 permissions:
@@ -12,23 +12,46 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Prepare Files
+
+      - name: Setup Files & Run WebGrab+Plus
         run: |
           mkdir -p config data
-          unzip -o India_aasthatv.com.zip -d config/
-          cp WebGrab-.config.xml config/WebGrab++.config.xml
-      - name: Run WebGrab+Plus
-        run: |
+          
+          # Official site se direct .ini aur .channels.xml download karna
+          curl -sL "https://webgrabplus.com" -o config/aasthatv.com.ini
+          curl -sL "https://webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/India/aasthatv.com.channels.xml" -o channels.xml
+          
+          # Automatic WebGrab++.config.xml banana
+          cat << 'EOF' > config/WebGrab++.config.xml
+          <?xml version="1.0"?>
+          <settings>
+            <filename>/data/epg.xml</filename>
+            <mode></mode>
+            <postprocess grab="y" run="n">mdb</postprocess>
+            <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36</user-agent>
+            <logging>on</logging>
+            <retry time-out="5">4</retry>
+            <timespan>2</timespan>
+            <update>f</update>
+          EOF
+          grep "<channel " channels.xml >> config/WebGrab++.config.xml
+          echo "</settings>" >> config/WebGrab++.config.xml
+          
+          # WebGrab+Plus run karna
           docker run --rm \
             -v $GITHUB_WORKSPACE/config:/config \
             -v $GITHUB_WORKSPACE/data:/data \
             lscr.io/linuxserver/webgrabplus:latest
-      - name: Save guide.xml
+          
+          # epg.xml.gz file banana
+          gzip -kf data/epg.xml
+          cp data/epg.xml.gz ./epg.xml.gz
+
+      - name: Save epg.xml.gz
         run: |
-          cp data/guide.xml ./guide.xml
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add guide.xml
-          git commit -m "Update EPG" || exit 0
+          git add epg.xml.gz
+          git commit -m "Auto update epg.xml.gz" || exit 0
           git push
           
