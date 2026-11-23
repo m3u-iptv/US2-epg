@@ -1,0 +1,32 @@
+name: Auto Update JioTV EPG
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # हर 12 घंटे में ऑटो-रन होगा
+  workflow_dispatch: # मैन्युअल रन करने के लिए बटन
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: pip install requests
+        
+      - name: Generate epg.xml.gz
+        run: python generate_epg.py
+        
+      - name: Commit and Push EPG
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add epg.xml.gz
+          git commit -m "Auto update EPG" || exit 0
+          git push
+          
