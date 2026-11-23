@@ -2,8 +2,8 @@ name: Filter EPG Daily
 
 on:
   schedule:
-    - cron: '0 4 * * *' # Runs automatically every day at 4:00 AM UTC
-  workflow_dispatch:      # Allows you to run it manually anytime
+    - cron: '0 4 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,37 +12,18 @@ jobs:
   filter-epg:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Download and Filter XMLTV
+      - uses: actions/checkout@v4
+      - name: Download and Filter
         run: |
-          curl -sL "https://epgshare01.online/epgshare01/epg_ripper_UK1.epg.xml.gz" -o full.xml.gz
+          curl -sL "https://epgshare01.online" -o full.xml.gz
           gunzip -f full.xml.gz
-          python3 -c '
-          import xml.etree.ElementTree as ET
-          target_channels = {
-              "Aastha.uk",
-              "Utsav.Bharat.uk",
-              "Utsav.Plus.HD.uk",
-              "Zee.Cinema.uk",
-              "Zee.TV.HD.uk"
-          }
-          tree = ET.parse("full.xml")
-          root = tree.getroot()
-          for elem in list(root):
-              if elem.tag == "channel" and elem.get("id") not in target_channels:
-                  root.remove(elem)
-              elif elem.tag == "programme" and elem.get("channel") not in target_channels:
-                  root.remove(elem)
-          tree.write("custom_epg.xml", encoding="utf-8", xml_declaration=True)
-          '
+          python3 filter.py
           gzip -f custom_epg.xml
-
-      - name: Commit and Push Filtered EPG
+      - name: Save File
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@://github.com"
           git add custom_epg.xml.gz
-          git commit -m "Update filtered EPG" || exit 0
+          git commit -m "Update EPG" || exit 0
           git push
+          
