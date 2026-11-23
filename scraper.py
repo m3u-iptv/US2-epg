@@ -11,11 +11,17 @@ CHANNEL_NAME = "Goldmines"
 
 
 def fetch_and_generate():
-  headers = {"User-Agent": "Mozilla/5.0"}
+  headers = {
+      "User-Agent": (
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+          " (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      ),
+      "Accept-Language": "en-US,en;q=0.9",
+  }
   response = requests.get(URL, headers=headers)
   soup = BeautifulSoup(response.text, "html.parser")
 
-  # Extract text lines cleanly
+  # Extract all text lines cleanly
   lines = [
       line.strip()
       for line in soup.get_text(separator="\n").split("\n")
@@ -24,24 +30,30 @@ def fetch_and_generate():
 
   schedule = []
   current_date = None
-  date_pattern = re.compile(r"^(\d{1,2}\s+[A-Za-z]{3}\s+\d{4})$")
-  time_pattern = re.compile(r"^(\d{1,2}:\d{1,2}\s*[AP]M)$", re.IGNORECASE)
+
+  # Matches date anywhere in the line (e.g., "Goldmines 23 Nov 2026" or "23 Nov 2026")
+  date_pattern = re.compile(
+      r"(\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{4})",
+      re.IGNORECASE,
+  )
+  # Matches time anywhere in the line (e.g., "01:33 AM" or "04:3 AM")
+  time_pattern = re.compile(r"(\d{1,2}:\d{1,2}\s*[AP]M)", re.IGNORECASE)
 
   for i, line in enumerate(lines):
-    # Match Date (e.g., 23 Nov 2026)
-    date_match = date_pattern.match(line)
+    date_match = date_pattern.search(line)
     if date_match:
-      try:
-        current_date = datetime.strptime(date_match.group(1), "%d %b %Y")
-      except ValueError:
-        pass
+      raw_date = date_match.group(1)
+      for fmt in ("%d %b %Y", "%d %B %Y"):
+        try:
+          current_date = datetime.strptime(raw_date, fmt)
+          break
+        except ValueError:
+          continue
       continue
 
-    # Match Time (e.g., 01:33 AM or 04:3 AM)
-    time_match = time_pattern.match(line)
-    if time_match and current_date and i >= 2:
+    time_match = time_pattern.search(line)
+    if time_match and current_date and i >= 1:
       raw_time = time_match.group(1).upper().replace(" ", "")
-      # Fix single-digit minutes like 04:3AM -> 04:03AM
       parts = re.match(r"(\d{1,2}):(\d{1,2})([AP]M)", raw_time)
       if parts:
         hr, mn, ampm = parts.groups()
@@ -51,12 +63,23 @@ def fetch_and_generate():
             "%Y-%m-%d %I:%M %p",
         )
 
-        # Title is usually 2 lines above the time (skipping "Hindi | Film")
-        title = lines[i - 2] if "Hindi" in lines[i - 1] else lines[i - 1]
+        # Look upwards 1 to 3 lines to find the movie title (ignoring "Hindi | Film" or category labels)
+        title = "Movie"
+        for back in range(1, 4):
+          if i - back >= 0:
+            candidate = lines[i - back]
+            if not any(
+                skip in candidate.lower()
+                for skip in ["hindi", "film", "goldmines", "schedule"]
+            ):
+              title = candidate
+              break
+
         schedule.append((dt_start, title))
 
-  # Sort chronologically
-  schedule.sort(key=lambda x: x[0])
+  # Remove duplicates & sort chronologically
+  schedule = sorted(list(set(schedule)), key=lambda x: x[0])
+  print(f"Total programs scraped: {len(schedule)}")
 
   # Build XMLTV structure
   tv = ET.Element("tv", {"generator-info-name": "Auto-Goldmines-EPG"})
@@ -92,4 +115,4 @@ def fetch_and_generate():
 
 if __name__ == "__main__":
   fetch_and_generate()
-    
+  
