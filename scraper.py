@@ -2,40 +2,33 @@ import gzip
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
-from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
+import requests
 
-URL = "https://www.knowledgeskey.com/goldmines-movie-today-schedule/"
+TARGET_URL = "https://knowledgeskey.com"
+PROXY_URL = f"https://jina.ai{TARGET_URL}"
 CHANNEL_ID = "Goldmines.in"
 CHANNEL_NAME = "Goldmines"
 
 
-def fetch_html():
-  with sync_playwright() as p:
-    browser = p.chromium.launch(headless=True)
-    context = browser.new_context(
-        user_agent=(
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-            " (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-        )
-    )
-    page = context.new_page()
-    page.goto(URL, wait_until="networkidle", timeout=60000)
-    page.wait_for_timeout(3000)
-    html = page.content()
-    browser.close()
-    return html
+def fetch_text():
+  headers = {"User-Agent": "Mozilla/5.0"}
+  try:
+    res = requests.get(PROXY_URL, headers=headers, timeout=30)
+    if res.status_code == 200 and "Nov" in res.text:
+      return res.text
+  except Exception as e:
+    print(f"Proxy error: {e}")
+
+  # Direct fallback
+  res = requests.get(TARGET_URL, headers=headers, timeout=30)
+  return res.text
 
 
 def fetch_and_generate():
-  html = fetch_html()
-  soup = BeautifulSoup(html, "html.parser")
-
-  lines = [
-      line.strip()
-      for line in soup.get_text(separator="\n").split("\n")
-      if line.strip()
-  ]
+  raw_text = fetch_text()
+  # Clean markdown bold/formatting symbols
+  clean_text = re.sub(r"[*#_`]", "", raw_text)
+  lines = [line.strip() for line in clean_text.split("\n") if line.strip()]
 
   schedule = []
   current_date = None
@@ -44,7 +37,7 @@ def fetch_and_generate():
       r"(\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{4})",
       re.IGNORECASE,
   )
-  time_pattern = re.compile(r"(\d{1,2}:\d{1,2}\s*[AP]M)", re.IGNORECASE)
+  time_pattern = re.compile(r"^(\d{1,2}:\d{1,2}\s*[AP]M)$", re.IGNORECASE)
 
   for i, line in enumerate(lines):
     date_match = date_pattern.search(line)
@@ -58,7 +51,7 @@ def fetch_and_generate():
           continue
       continue
 
-    time_match = time_pattern.search(line)
+    time_match = time_pattern.match(line)
     if time_match and current_date and i >= 1:
       raw_time = time_match.group(1).upper().replace(" ", "")
       parts = re.match(r"(\d{1,2}):(\d{1,2})([AP]M)", raw_time)
@@ -70,30 +63,34 @@ def fetch_and_generate():
             "%Y-%m-%d %I:%M %p",
         )
 
-        # Movie title detect karein (Hindi | Film ko skip karke)
+        # Look upwards for movie title
         title = "Movie"
-        for back in range(1, 4):
+        for back in range(1, 5):
           if i - back >= 0:
-            candidate = lines[i - back]
-            if not any(
-                skip in candidate.lower()
-                for skip in ["hindi", "film", "goldmines", "schedule"]
+            candidate = lines[i - back].strip()
+            if (
+                candidate
+                and not any(
+                    skip in candidate.lower()
+                    for skip in ["hindi", "film", "goldmines", "schedule", "|"]
+                )
+                and not date_pattern.search(candidate)
             ):
               title = candidate
               break
 
         schedule.append((dt_start, title))
 
-  # Duplicate hatayein aur time ke hisaab se sort karein
+  # Deduplicate & sort
   unique_schedule = {}
   for dt, title in schedule:
     if dt not in unique_schedule or unique_schedule[dt] == "Movie":
       unique_schedule[dt] = title
 
   sorted_schedule = sorted(unique_schedule.items(), key=lambda x: x[0])
-  print(f"Total original programs scraped: {len(sorted_schedule)}")
+  print(f"Total programs scraped: {len(sorted_schedule)}")
 
-  # XMLTV file banayein
+  # Build XMLTV
   tv = ET.Element("tv", {"generator-info-name": "Auto-Goldmines-EPG"})
   channel = ET.SubElement(tv, "channel", {"id": CHANNEL_ID})
   ET.SubElement(channel, "display-name").text = CHANNEL_NAME
