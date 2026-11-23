@@ -1,25 +1,38 @@
-name: Update Goldmines EPG
+name: Auto Update Free Dish EPG
+
 on:
   schedule:
-    - cron: '30 0 * * *' # Roz subah 6 AM IST
-    - cron: '30 12 * * *' # Roz shaam 6 PM IST
+    - cron: '0 0 * * *' # Har roz subah 5:30 AM (IST) par auto-update hoga
   workflow_dispatch:
-permissions:
-  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
-      - run: pip install requests beautifulsoup4
-      - run: python goldmines.py
-      - run: |
-          ls -lh goldmines-epg.xml.gz
+          node-version: '20'
+
+      - name: Clone EPG Grabber
+        run: |
+          git clone --depth 1 -b master https://github.com
+          cd epg
+          npm install
+
+      - name: Generate epg.xml.gz
+        run: |
+          cd epg
+          npm run grab --- --channels=../channels.xml --output=../epg.xml --days=2 --gzip
+
+      - name: Commit and Push EPG
+        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f goldmines-epg.xml.gz
-          git commit -m "Update Goldmines EPG" || echo "No Change"
+          git add epg.xml.gz
+          git commit -m "Auto update EPG" || exit 0
           git push
+          
