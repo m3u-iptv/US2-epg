@@ -2,33 +2,67 @@ import gzip
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
+from bs4 import BeautifulSoup
 import requests
 
-TARGET_URL = "https://knowledgeskey.com"
-PROXY_URL = f"https://jina.ai{TARGET_URL}"
+TARGET_URL = (
+    "https://www.freedishtoday.com/goldmines-today-schedule-for-free-dish-users/"
+)
+API_URL = "https://freedishtoday.com"
+JINA_URL = f"https://jina.ai{TARGET_URL}"
+
 CHANNEL_ID = "Goldmines.in"
 CHANNEL_NAME = "Goldmines"
 
 
-def fetch_text():
-  headers = {"User-Agent": "Mozilla/5.0"}
-  try:
-    res = requests.get(PROXY_URL, headers=headers, timeout=30)
-    if res.status_code == 200 and "Nov" in res.text:
-      return res.text
-  except Exception as e:
-    print(f"Proxy error: {e}")
+def get_page_lines():
+  headers = {
+      "User-Agent": (
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+          " (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      )
+  }
 
-  # Direct fallback
-  res = requests.get(TARGET_URL, headers=headers, timeout=30)
-  return res.text
+  # Method 1: WordPress JSON API (Sabse fast aur block-free)
+  try:
+    r = requests.get(API_URL, headers=headers, timeout=20)
+    if r.status_code == 200 and r.json():
+      html_content = r.json()["content"]["rendered"]
+      soup = BeautifulSoup(html_content, "html.parser")
+      lines = [
+          l.strip()
+          for l in soup.get_text(separator="\n").split("\n")
+          if l.strip()
+      ]
+      if len(lines) > 10:
+        print("Fetched via WP API")
+        return lines
+  except Exception as e:
+    print(f"API fallback: {e}")
+
+  # Method 2: Jina Reader Proxy
+  try:
+    r = requests.get(JINA_URL, headers=headers, timeout=25)
+    if r.status_code == 200 and "AM" in r.text:
+      clean_text = re.sub(r"[*#_`]", "", r.text)
+      lines = [l.strip() for l in clean_text.split("\n") if l.strip()]
+      if len(lines) > 10:
+        print("Fetched via Jina Reader")
+        return lines
+  except Exception as e:
+    print(f"Jina fallback: {e}")
+
+  # Method 3: Direct HTML Fetch
+  r = requests.get(TARGET_URL, headers=headers, timeout=25)
+  soup = BeautifulSoup(r.text, "html.parser")
+  print("Fetched via Direct HTML")
+  return [
+      l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()
+  ]
 
 
 def fetch_and_generate():
-  raw_text = fetch_text()
-  # Clean markdown bold/formatting symbols
-  clean_text = re.sub(r"[*#_`]", "", raw_text)
-  lines = [line.strip() for line in clean_text.split("\n") if line.strip()]
+  lines = get_page_lines()
 
   schedule = []
   current_date = None
@@ -63,7 +97,7 @@ def fetch_and_generate():
             "%Y-%m-%d %I:%M %p",
         )
 
-        # Look upwards for movie title
+        # Movie title detect karein ("Hindi | Film" aur headers ko chhod kar)
         title = "Movie"
         for back in range(1, 5):
           if i - back >= 0:
@@ -72,7 +106,14 @@ def fetch_and_generate():
                 candidate
                 and not any(
                     skip in candidate.lower()
-                    for skip in ["hindi", "film", "goldmines", "schedule", "|"]
+                    for skip in [
+                        "hindi",
+                        "film",
+                        "goldmines",
+                        "schedule",
+                        "|",
+                        "source:",
+                    ]
                 )
                 and not date_pattern.search(candidate)
             ):
@@ -81,23 +122,23 @@ def fetch_and_generate():
 
         schedule.append((dt_start, title))
 
-  # Deduplicate & sort
+  # Duplicate entries hatayein aur time ke hisaab se sort karein
   unique_schedule = {}
   for dt, title in schedule:
     if dt not in unique_schedule or unique_schedule[dt] == "Movie":
       unique_schedule[dt] = title
 
-  sorted_schedule = sorted(unique_schedule.items(), key=lambda x: x[0])
+  sorted_schedule = sorted(unique_schedule.items(), key=lambda x: x)
   print(f"Total programs scraped: {len(sorted_schedule)}")
 
-  # Build XMLTV
+  # XMLTV file banayein
   tv = ET.Element("tv", {"generator-info-name": "Auto-Goldmines-EPG"})
   channel = ET.SubElement(tv, "channel", {"id": CHANNEL_ID})
   ET.SubElement(channel, "display-name").text = CHANNEL_NAME
 
   for idx, (start_dt, title) in enumerate(sorted_schedule):
     if idx + 1 < len(sorted_schedule):
-      stop_dt = sorted_schedule[idx + 1][0]
+      stop_dt = sorted_schedule[idx + 1]
     else:
       stop_dt = start_dt + timedelta(hours=2, minutes=30)
 
