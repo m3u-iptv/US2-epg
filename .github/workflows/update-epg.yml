@@ -23,11 +23,10 @@ jobs:
           python3 -c '
           import xml.etree.ElementTree as ET
           
-          # Yahan apne sabhi channels ke tvg-id comma lagakar likhein
           target_ids = [
               "Sony.KAL.us2",
               "and.TV.us2",
-              "AAPKA.Colors.US.us2"
+              "AAPKA.Colors.US.us2",
               "Zee.TV.us2"
           ]
           
@@ -52,7 +51,8 @@ jobs:
       - name: Save and Push Filtered EPG
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@://github.com"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add us2.xml
           git commit -m "Update EPG channels" || exit 0
           git push
+          
