@@ -12,24 +12,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '8.0.x'
+      - name: Prepare Files
+        run: |
+          mkdir -p config data
+          unzip -o India_aasthatv.com.zip -d config/
+          cp WebGrab-.config.xml config/WebGrab++.config.xml
       - name: Run WebGrab+Plus
         run: |
-          wget https://webgrabplus.com
-          tar -zxvf WebGrabPlus_V5.6_install.tar.gz
-          cd ~/.wg++
-          ./install.sh
-          cd $GITHUB_WORKSPACE
-          unzip -o India_aasthatv.com.zip
-          cp WebGrab-.config.xml ~/.wg++/WebGrab++.config.xml
-          cp *.ini ~/.wg++/
-          ~/.wg++/run.sh
-          cp ~/.wg++/guide.xml ./guide.xml
+          docker run --rm \
+            -v $GITHUB_WORKSPACE/config:/config \
+            -v $GITHUB_WORKSPACE/data:/data \
+            lscr.io/linuxserver/webgrabplus:latest
       - name: Save guide.xml
         run: |
+          cp data/guide.xml ./guide.xml
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add guide.xml
