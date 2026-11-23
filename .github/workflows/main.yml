@@ -1,7 +1,7 @@
 name: Auto Update EPG
 on:
   schedule:
-    - cron: '0 2 * * *' # Har roz subah 7:30 AM IST par auto-update hoga
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -19,7 +19,7 @@ jobs:
           
           # Official site se direct .ini aur .channels.xml download karna
           curl -sL "https://webgrabplus.com" -o config/aasthatv.com.ini
-          curl -sL "https://webgrabplus.com/sites/default/files/download/ini/info/siteini.pack/India/aasthatv.com.channels.xml" -o channels.xml
+          curl -sL "https://webgrabplus.com" -o channels.xml
           
           # Automatic WebGrab++.config.xml banana
           cat << 'EOF' > config/WebGrab++.config.xml
@@ -31,17 +31,18 @@ jobs:
             <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36</user-agent>
             <logging>on</logging>
             <retry time-out="5">4</retry>
-            <timespan>2</timespan>
+            <timespan>1</timespan>
             <update>f</update>
           EOF
           grep "<channel " channels.xml >> config/WebGrab++.config.xml
           echo "</settings>" >> config/WebGrab++.config.xml
           
-          # WebGrab+Plus run karna
-          docker run --rm \
+          # Seedha WebGrab+Plus binary run karke exit karna
+          docker run --rm --entrypoint "" \
             -v $GITHUB_WORKSPACE/config:/config \
             -v $GITHUB_WORKSPACE/data:/data \
-            lscr.io/linuxserver/webgrabplus:latest
+            lscr.io/linuxserver/webgrabplus:latest \
+            dotnet /app/wg++/bin.net/WebGrab+Plus.dll /config
           
           # epg.xml.gz file banana
           gzip -kf data/epg.xml
