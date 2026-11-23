@@ -1,8 +1,8 @@
 name: Update EPG
 on:
   schedule:
-    - cron: '0 2 * * *' # Har roz subah automatically chalega
-  workflow_dispatch: # Manual chalane ke liye button
+    - cron: '0 2 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,11 +12,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
       - name: Run WebGrab+Plus
         run: |
-          wget http://webgrabplus.com
-          tar -zxvf WebGrabPlus_V5.1_install.tar.gz
-          cp WebGrab++.config.xml ~/.wg++/
+          wget https://webgrabplus.com
+          tar -zxvf WebGrabPlus_V5.6_install.tar.gz
+          cd ~/.wg++
+          ./install.sh
+          cd $GITHUB_WORKSPACE
+          cp WebGrab-.config.xml ~/.wg++/WebGrab++.config.xml
           cp *.ini ~/.wg++/
           ~/.wg++/run.sh
           cp ~/.wg++/guide.xml ./guide.xml
@@ -27,3 +34,4 @@ jobs:
           git add guide.xml
           git commit -m "Update EPG" || exit 0
           git push
+          
