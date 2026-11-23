@@ -3,7 +3,7 @@ import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
-# JioTV के सही API Endpoints
+# JioTV के असली API Endpoints
 CHANNELS_API = "https://jio.com"
 EPG_API = "https://jio.com{}&offset={}"
 
@@ -27,7 +27,7 @@ def fetch_and_build_epg():
     }
 
     # 1. चैनल लिस्ट प्राप्त करें
-    resp = requests.get(CHANNELS_API, headers=headers).json()
+    resp = requests.get(CHANNELS_API, headers=headers, timeout=15).json()
     channels = resp.get("result", [])
 
     for ch in channels:
@@ -47,7 +47,7 @@ def fetch_and_build_epg():
         # 2. आज (0) और कल (1) का EPG डेटा प्राप्त करें
         for offset in:
             try:
-                epg_data = requests.get(EPG_API.format(ch_id, offset), headers=headers).json()
+                epg_data = requests.get(EPG_API.format(ch_id, offset), headers=headers, timeout=15).json()
                 for prog in epg_data.get("epg", []):
                     start_dt = datetime.fromtimestamp(prog["startEpoch"] / 1000, tz=timezone(timedelta(hours=5, minutes=30)))
                     end_dt = datetime.fromtimestamp(prog["endEpoch"] / 1000, tz=timezone(timedelta(hours=5, minutes=30)))
