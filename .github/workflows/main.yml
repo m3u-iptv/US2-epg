@@ -1,0 +1,29 @@
+name: Update EPG
+on:
+  schedule:
+    - cron: '0 2 * * *' # Har roz subah automatically chalega
+  workflow_dispatch: # Manual chalane ke liye button
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run WebGrab+Plus
+        run: |
+          wget http://webgrabplus.com
+          tar -zxvf WebGrabPlus_V5.1_install.tar.gz
+          cp WebGrab++.config.xml ~/.wg++/
+          cp *.ini ~/.wg++/
+          ~/.wg++/run.sh
+          cp ~/.wg++/guide.xml ./guide.xml
+      - name: Save guide.xml
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add guide.xml
+          git commit -m "Update EPG" || exit 0
+          git push
