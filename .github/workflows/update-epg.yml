@@ -24,7 +24,11 @@ jobs:
           python3 -c '
           import xml.etree.ElementTree as ET
           
-          target_id = "Sony.KAL.us2"
+          target_id = "and.TV.us2",
+              "AAPKA.Colors.US.us2",
+              "Sony.KAL.us2",
+              "Zee.TV.us2"
+          ]
           tree = ET.parse("full_epg.xml")
           root = tree.getroot()
           
