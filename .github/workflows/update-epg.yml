@@ -55,3 +55,4 @@ jobs:
           git add us2.xml
           git commit -m "Update EPG channels" || exit 0
           git push
+
