@@ -12,18 +12,21 @@ jobs:
   filter-epg:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Download and Filter
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and Filter XML
         run: |
           curl -sL "https://epgshare01.online" -o full.xml.gz
           gunzip -f full.xml.gz
           python3 filter.py
           gzip -f custom_epg.xml
-      - name: Save File
+
+      - name: Save Custom EPG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@://github.com"
           git add custom_epg.xml.gz
-          git commit -m "Update EPG" || exit 0
+          git commit -m "Update 5 channels EPG" || exit 0
           git push
           
