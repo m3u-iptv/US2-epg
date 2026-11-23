@@ -23,6 +23,7 @@ jobs:
           cd ~/.wg++
           ./install.sh
           cd $GITHUB_WORKSPACE
+          unzip -o India_aasthatv.com.zip
           cp WebGrab-.config.xml ~/.wg++/WebGrab++.config.xml
           cp *.ini ~/.wg++/
           ~/.wg++/run.sh
