@@ -3,75 +3,58 @@ import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
+from curl_cffi import requests as cffi_requests
 import requests
 
-TARGET_URL = (
-    "https://www.freedishtoday.com/goldmines-today-schedule-for-free-dish-users/"
-)
-API_URL = "https://freedishtoday.com"
-JINA_URL = f"https://jina.ai{TARGET_URL}"
+URLS = [
+    "https://freedishtoday.com",
+    "https://knowledgeskey.com",
+]
 
-CHANNEL_ID = "Goldmines.in"
+CHANNEL_ID = "goldmines.in"
 CHANNEL_NAME = "Goldmines"
 
 
-def get_page_lines():
-  headers = {
-      "User-Agent": (
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-          " (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-      )
-  }
+def fetch_clean_lines():
+  # Method 1: Chrome browser impersonation (Cloudflare bypass)
+  for url in URLS:
+    try:
+      resp = cffi_requests.get(url, impersonate="chrome120", timeout=25)
+      if resp.status_code == 200 and "AM" in resp.text:
+        soup = BeautifulSoup(resp.text, "html.parser")
+        lines = [line.strip() for line in soup.stripped_strings if line.strip()]
+        if len(lines) > 15:
+          print(f"Success via Chrome Impersonate: {url}")
+          return lines
+    except Exception as e:
+      print(f"Chrome fetch failed for {url}: {e}")
 
-  # Method 1: WordPress JSON API (Sabse fast aur block-free)
-  try:
-    r = requests.get(API_URL, headers=headers, timeout=20)
-    if r.status_code == 200 and r.json():
-      html_content = r.json()["content"]["rendered"]
-      soup = BeautifulSoup(html_content, "html.parser")
-      lines = [
-          l.strip()
-          for l in soup.get_text(separator="\n").split("\n")
-          if l.strip()
-      ]
-      if len(lines) > 10:
-        print("Fetched via WP API")
-        return lines
-  except Exception as e:
-    print(f"API fallback: {e}")
+  # Method 2: Jina Reader Proxy Fallback
+  for url in URLS:
+    try:
+      resp = requests.get(f"https://jina.ai{url}", timeout=25)
+      if resp.status_code == 200 and "AM" in resp.text:
+        clean_text = re.sub(r"[*#_`]", "", resp.text)
+        lines = [line.strip() for line in clean_text.split("\n") if line.strip()]
+        if len(lines) > 15:
+          print(f"Success via Jina Proxy: {url}")
+          return lines
+    except Exception as e:
+      print(f"Jina fetch failed for {url}: {e}")
 
-  # Method 2: Jina Reader Proxy
-  try:
-    r = requests.get(JINA_URL, headers=headers, timeout=25)
-    if r.status_code == 200 and "AM" in r.text:
-      clean_text = re.sub(r"[*#_`]", "", r.text)
-      lines = [l.strip() for l in clean_text.split("\n") if l.strip()]
-      if len(lines) > 10:
-        print("Fetched via Jina Reader")
-        return lines
-  except Exception as e:
-    print(f"Jina fallback: {e}")
-
-  # Method 3: Direct HTML Fetch
-  r = requests.get(TARGET_URL, headers=headers, timeout=25)
-  soup = BeautifulSoup(r.text, "html.parser")
-  print("Fetched via Direct HTML")
-  return [
-      l.strip() for l in soup.get_text(separator="\n").split("\n") if l.strip()
-  ]
+  return []
 
 
-def fetch_and_generate():
-  lines = get_page_lines()
-
+def parse_goldmines():
+  lines = fetch_clean_lines()
   schedule = []
   current_date = None
 
   date_pattern = re.compile(
       r"(\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{4})",
-      re.IGNORECASE,
+      re.I,
   )
-  time_pattern = re.compile(r"^(\d{1,2}:\d{1,2}\s*[AP]M)$", re.IGNORECASE)
+  time_pattern = re.compile(r"^(\d{1,2}:\d{1,2}\s*[AP]M)$", re.I)
 
   for i, line in enumerate(lines):
     date_match = date_pattern.search(line)
@@ -97,7 +80,7 @@ def fetch_and_generate():
             "%Y-%m-%d %I:%M %p",
         )
 
-        # Movie title detect karein ("Hindi | Film" aur headers ko chhod kar)
+        # Movie title detect karein ("Hindi | Film" skip karke)
         title = "Movie"
         for back in range(1, 5):
           if i - back >= 0:
@@ -122,19 +105,19 @@ def fetch_and_generate():
 
         schedule.append((dt_start, title))
 
-  # Duplicate entries hatayein aur time ke hisaab se sort karein
+  # Duplicate entries hatayein aur sort karein
   unique_schedule = {}
   for dt, title in schedule:
     if dt not in unique_schedule or unique_schedule[dt] == "Movie":
       unique_schedule[dt] = title
 
   sorted_schedule = sorted(unique_schedule.items(), key=lambda x: x)
-  print(f"Total programs scraped: {len(sorted_schedule)}")
+  print(f"Total Goldmines shows scraped: {len(sorted_schedule)}")
 
-  # XMLTV file banayein
-  tv = ET.Element("tv", {"generator-info-name": "Auto-Goldmines-EPG"})
-  channel = ET.SubElement(tv, "channel", {"id": CHANNEL_ID})
-  ET.SubElement(channel, "display-name").text = CHANNEL_NAME
+  # Separate goldmines.xml.gz banayein
+  tv = ET.Element("tv", {"generator-info-name": "Goldmines-Auto-EPG"})
+  ch_elem = ET.SubElement(tv, "channel", {"id": CHANNEL_ID})
+  ET.SubElement(ch_elem, "display-name").text = CHANNEL_NAME
 
   for idx, (start_dt, title) in enumerate(sorted_schedule):
     if idx + 1 < len(sorted_schedule):
@@ -142,7 +125,7 @@ def fetch_and_generate():
     else:
       stop_dt = start_dt + timedelta(hours=2, minutes=30)
 
-    prog = ET.SubElement(
+    prog_elem = ET.SubElement(
         tv,
         "programme",
         {
@@ -151,17 +134,17 @@ def fetch_and_generate():
             "channel": CHANNEL_ID,
         },
     )
-    ET.SubElement(prog, "title", {"lang": "hi"}).text = title
-    ET.SubElement(prog, "desc", {"lang": "hi"}).text = (
+    ET.SubElement(prog_elem, "title", {"lang": "hi"}).text = title
+    ET.SubElement(prog_elem, "desc", {"lang": "hi"}).text = (
         f"{title} - Hindi Dubbed Movie on Goldmines"
     )
-    ET.SubElement(prog, "category", {"lang": "en"}).text = "Movie"
+    ET.SubElement(prog_elem, "category", {"lang": "en"}).text = "Movie"
 
   xml_bytes = ET.tostring(tv, encoding="utf-8", xml_declaration=True)
-  with gzip.open("epg.xml.gz", "wb") as f:
+  with gzip.open("goldmines.xml.gz", "wb") as f:
     f.write(xml_bytes)
 
 
 if __name__ == "__main__":
-  fetch_and_generate()
-  
+  parse_goldmines()
+    
