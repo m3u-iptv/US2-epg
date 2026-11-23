@@ -1,0 +1,25 @@
+name: Update Goldmines EPG
+on:
+  schedule:
+    - cron: '30 0 * * *' # Roz subah 6 AM IST
+    - cron: '30 12 * * *' # Roz shaam 6 PM IST
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests beautifulsoup4
+      - run: python goldmines.py
+      - run: |
+          ls -lh goldmines-epg.xml.gz
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -f goldmines-epg.xml.gz
+          git commit -m "Update Goldmines EPG" || echo "No Change"
+          git push
