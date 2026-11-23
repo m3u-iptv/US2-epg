@@ -1,9 +1,10 @@
-name: Filter EPG Daily
+name: Auto Update Sony KAL EPG
 
 on:
   schedule:
-    - cron: '0 4 * * *'
-  workflow_dispatch:
+    # Rozana subah 6:00 AM IST (00:30 UTC) par chalega
+    - cron: '30 0 * * *'
+  workflow_dispatch: # Manual chalane ke liye button
 
 permissions:
   contents: write
@@ -12,21 +13,41 @@ jobs:
   filter-epg:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Download and Filter XML
+      - name: Download and Filter EPG
         run: |
-          curl -sL "https://epgshare01.online" -o full.xml.gz
-          gunzip -f full.xml.gz
-          python3 filter.py
-          gzip -f custom_epg.xml
+          curl -s -L "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz" -o full_epg.xml.gz
+          gunzip -f full_epg.xml.gz
+          
+          python3 -c '
+          import xml.etree.ElementTree as ET
+          
+          target_id = "Sony.KAL.us2"
+          tree = ET.parse("full_epg.xml")
+          root = tree.getroot()
+          
+          new_root = ET.Element("tv", root.attrib)
+          
+          for ch in root.findall("channel"):
+              if ch.get("id") == target_id:
+                  new_root.append(ch)
+                  
+          for prog in root.findall("programme"):
+              if prog.get("channel") == target_id:
+                  new_root.append(prog)
+                  
+          new_tree = ET.ElementTree(new_root)
+          ET.indent(new_tree, space="  ")
+          new_tree.write("sony_kal.xml", encoding="utf-8", xml_declaration=True)
+          '
 
-      - name: Save Custom EPG
+      - name: Save and Push Filtered EPG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@://github.com"
-          git add custom_epg.xml.gz
-          git commit -m "Update 5 channels EPG" || exit 0
+          git add sony_kal.xml
+          git commit -m "Update Sony.KAL.us2 EPG" || exit 0
           git push
           
