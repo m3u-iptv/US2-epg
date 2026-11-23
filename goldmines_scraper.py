@@ -6,48 +6,42 @@ from bs4 import BeautifulSoup
 from curl_cffi import requests as cffi_requests
 import requests
 
-URLS = [
-    "https://freedishtoday.com",
-    "https://knowledgeskey.com",
-]
-
+URL = "https://www.freedishtoday.com/goldmines-today-schedule-for-free-dish-users/"
 CHANNEL_ID = "goldmines.in"
 CHANNEL_NAME = "Goldmines"
 
 
-def fetch_clean_lines():
-  # Method 1: Chrome browser impersonation (Cloudflare bypass)
-  for url in URLS:
-    try:
-      resp = cffi_requests.get(url, impersonate="chrome120", timeout=25)
-      if resp.status_code == 200 and "AM" in resp.text:
-        soup = BeautifulSoup(resp.text, "html.parser")
-        lines = [line.strip() for line in soup.stripped_strings if line.strip()]
-        if len(lines) > 15:
-          print(f"Success via Chrome Impersonate: {url}")
-          return lines
-    except Exception as e:
-      print(f"Chrome fetch failed for {url}: {e}")
+def get_lines():
+  # 1. Try curl_cffi (Chrome TLS impersonation)
+  try:
+    resp = cffi_requests.get(URL, impersonate="chrome120", timeout=25)
+    if resp.status_code == 200 and "AM" in resp.text:
+      soup = BeautifulSoup(resp.text, "html.parser")
+      lines = [line.strip() for line in soup.stripped_strings if line.strip()]
+      if len(lines) > 15:
+        print("Fetched via curl_cffi")
+        return lines
+  except Exception as e:
+    print(f"curl_cffi error: {e}")
 
-  # Method 2: Jina Reader Proxy Fallback
-  for url in URLS:
-    try:
-      resp = requests.get(f"https://jina.ai{url}", timeout=25)
-      if resp.status_code == 200 and "AM" in resp.text:
-        clean_text = re.sub(r"[*#_`]", "", resp.text)
-        lines = [line.strip() for line in clean_text.split("\n") if line.strip()]
-        if len(lines) > 15:
-          print(f"Success via Jina Proxy: {url}")
-          return lines
-    except Exception as e:
-      print(f"Jina fetch failed for {url}: {e}")
+  # 2. Fallback to Jina Reader
+  try:
+    resp = requests.get(f"https://jina.ai{URL}", timeout=25)
+    if resp.status_code == 200 and "AM" in resp.text:
+      clean_text = re.sub(r"[*#_`]", "", resp.text)
+      lines = [line.strip() for line in clean_text.split("\n") if line.strip()]
+      if len(lines) > 15:
+        print("Fetched via Jina Reader")
+        return lines
+  except Exception as e:
+    print(f"Jina error: {e}")
 
   return []
 
 
-def parse_goldmines():
-  lines = fetch_clean_lines()
-  schedule = []
+def build_goldmines_epg():
+  lines = get_lines()
+  schedule_dict = {}
   current_date = None
 
   date_pattern = re.compile(
@@ -103,25 +97,21 @@ def parse_goldmines():
               title = candidate
               break
 
-        schedule.append((dt_start, title))
+        if dt_start not in schedule_dict or schedule_dict[dt_start] == "Movie":
+          schedule_dict[dt_start] = title
 
-  # Duplicate entries hatayein aur sort karein
-  unique_schedule = {}
-  for dt, title in schedule:
-    if dt not in unique_schedule or unique_schedule[dt] == "Movie":
-      unique_schedule[dt] = title
+  # Chronological order mein sort karein
+  sorted_items = sorted(schedule_dict.items(), key=lambda item: item[0])
+  print(f"Total Goldmines programs scraped: {len(sorted_items)}")
 
-  sorted_schedule = sorted(unique_schedule.items(), key=lambda x: x)
-  print(f"Total Goldmines shows scraped: {len(sorted_schedule)}")
-
-  # Separate goldmines.xml.gz banayein
-  tv = ET.Element("tv", {"generator-info-name": "Goldmines-Auto-EPG"})
+  # XMLTV structure banayein
+  tv = ET.Element("tv", {"generator-info-name": "Goldmines-FreeDish-EPG"})
   ch_elem = ET.SubElement(tv, "channel", {"id": CHANNEL_ID})
   ET.SubElement(ch_elem, "display-name").text = CHANNEL_NAME
 
-  for idx, (start_dt, title) in enumerate(sorted_schedule):
-    if idx + 1 < len(sorted_schedule):
-      stop_dt = sorted_schedule[idx + 1]
+  for idx, (start_dt, title) in enumerate(sorted_items):
+    if idx + 1 < len(sorted_items):
+      stop_dt = sorted_items[idx + 1][0]
     else:
       stop_dt = start_dt + timedelta(hours=2, minutes=30)
 
@@ -146,5 +136,5 @@ def parse_goldmines():
 
 
 if __name__ == "__main__":
-  parse_goldmines()
+  build_goldmines_epg()
     
