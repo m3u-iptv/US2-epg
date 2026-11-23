@@ -2,9 +2,8 @@ name: Auto Update EPG
 
 on:
   schedule:
-    # Runs automatically every 6 hours
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Allows manual trigger anytime
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -21,8 +20,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
+      - name: Install dependencies & Browser
+        run: |
+          pip install beautifulsoup4 playwright
+          playwright install chromium
 
       - name: Run EPG scraper
         run: python scraper.py
