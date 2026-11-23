@@ -1,0 +1,23 @@
+name: Update UK EPG
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build-epg:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python epg_filter.py
+      - run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add epg.xml.gz
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update UK EPG"
+          git push
