@@ -1,4 +1,4 @@
-name: Auto Update EPG
+name: Auto Update Goldmines EPG
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  build-epg:
+  build-goldmines-epg:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -21,16 +21,16 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4 curl_cffi
 
-      - name: Run EPG scraper
-        run: python scraper.py
+      - name: Run Goldmines EPG scraper
+        run: python goldmines_scraper.py
 
       - name: Commit and push updated EPG
         run: |
           git config --global user.name "EPG Bot"
           git config --global user.email "bot@://github.com"
-          git add epg.xml.gz
-          git commit -m "Auto-update epg.xml.gz" || exit 0
+          git add goldmines.xml.gz
+          git commit -m "Auto-update goldmines.xml.gz" || exit 0
           git push
           
