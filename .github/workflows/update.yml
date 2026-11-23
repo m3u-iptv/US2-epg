@@ -1,38 +1,7 @@
-name: Auto Update Free Dish EPG
-
-on:
-  schedule:
-    - cron: '0 0 * * *' # Har roz subah 5:30 AM (IST) par auto-update hoga
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Clone EPG Grabber
-        run: |
-          git clone --depth 1 -b master https://github.com
-          cd epg
-          npm install
-
-      - name: Generate epg.xml.gz
-        run: |
-          cd epg
-          npm run grab --- --channels=../channels.xml --output=../epg.xml --days=2 --gzip
-
-      - name: Commit and Push EPG
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add epg.xml.gz
-          git commit -m "Auto update EPG" || exit 0
-          git push
-          
+    - name: Generate epg.xml.gz
+      run: |
+        cd epg
+        npm run grab --- --channels=../channels.xml --output=../epg.xml --days=2
+        cd ..
+        gzip -f epg.xml
+        
