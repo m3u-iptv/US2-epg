@@ -45,14 +45,14 @@ jobs:
                   
           new_tree = ET.ElementTree(new_root)
           ET.indent(new_tree, space="  ")
-          new_tree.write("us2.xml", encoding="utf-8", xml_declaration=True)
+          new_tree.write("US2.xml", encoding="utf-8", xml_declaration=True)
           '
 
       - name: Save and Push Filtered EPG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add us2.xml
+          git add US2.xml
           git commit -m "Update EPG channels" || exit 0
           git push
 
