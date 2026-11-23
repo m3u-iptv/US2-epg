@@ -2,8 +2,9 @@ name: Auto Update US2 EPG
 
 on:
   schedule:
+    # Rozana subah 6:00 AM IST (00:30 UTC) par chalega
     - cron: '30 0 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Manual chalane ke liye button
 
 permissions:
   contents: write
@@ -17,7 +18,7 @@ jobs:
 
       - name: Download and Filter EPG
         run: |
-          curl -s -L "https://epgshare01.online" -o full_epg.xml.gz
+          curl -s -L "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz" -o full_epg.xml.gz
           gunzip -f full_epg.xml.gz
           
           python3 -c '
@@ -36,11 +37,11 @@ jobs:
           new_root = ET.Element("tv", root.attrib)
           
           for ch in root.findall("channel"):
-              if ch.get("id") in target_ids:
+              if ch.get("id") == target_id:
                   new_root.append(ch)
                   
           for prog in root.findall("programme"):
-              if prog.get("channel") in target_ids:
+              if prog.get("channel") == target_id:
                   new_root.append(prog)
                   
           new_tree = ET.ElementTree(new_root)
@@ -51,8 +52,8 @@ jobs:
       - name: Save and Push Filtered EPG
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "github-actions[bot]@://github.com"
           git add us2.xml
-          git commit -m "Update EPG channels" || exit 0
+          git commit -m "Update Sony.KAL.us2 EPG" || exit 0
           git push
           
