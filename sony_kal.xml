@@ -1,0 +1,3305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv generator-info-name="none" generator-info-url="none">
+  <channel id="Sony.KAL.us2">
+    <icon src="http://dtil.tmsimg.com/assets/s122195_ll_h15_aa.png?w=360&amp;h=270" />
+    <icon src="http://dtil.tmsimg.com/assets/s122195_ll_h15_aa.png?w=360&amp;h=270" />
+    <url>http://www.tmsapi.com</url>
+    <display-name lang="en">Sony KAL</display-name>
+  </channel>
+  <programme channel="Sony.KAL.us2" start="20261122053600 +0000" stop="20261122063000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122063000 +0000" stop="20261122070000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122070000 +0000" stop="20261122073000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122073000 +0000" stop="20261122075300 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122075300 +0000" stop="20261122081900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122081900 +0000" stop="20261122084300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122084300 +0000" stop="20261122090900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122090900 +0000" stop="20261122093600 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122093600 +0000" stop="20261122103000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122103000 +0000" stop="20261122110000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122110000 +0000" stop="20261122113200 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122113200 +0000" stop="20261122122600 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122122600 +0000" stop="20261122132000 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122132000 +0000" stop="20261122140900 +0000">
+    <title lang="en">CID</title>
+    <desc lang="en">A group of officers who work for the Crime Investigation Department of the police force seek the help of a professional forensic expert and solve various criminal cases.</desc>
+    <credits>
+      <actor>Shivaji Satam</actor>
+      <actor>Aditya Srivastava</actor>
+      <actor>Dayanand Shetty</actor>
+      <director>Christabelle D'souza</director>
+      <director>Suleman Quadri</director>
+      <director>Udayan Pradeep Shukla</director>
+      <director>Santosh Shetty</director>
+      <director>Siba Mishra</director>
+      <director>Salil Singh</director>
+    </credits>
+    <date>1998</date>
+    <category lang="en">Crime drama</category>
+    <category lang="en">Thriller</category>
+    <icon src="http://dtil.tmsimg.com/assets/p28962935_b_h11_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <rating system="Australian Classification Board">
+      <value>PG</value>
+    </rating>
+    <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
+      <value>A14</value>
+    </rating>
+    <rating system="Kijkwijzer">
+      <value>12</value>
+    </rating>
+    <rating system="방송통신심의위원회">
+      <value>19</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122140900 +0000" stop="20261122143500 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122143500 +0000" stop="20261122150000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122150000 +0000" stop="20261122153200 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122153200 +0000" stop="20261122162600 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122162600 +0000" stop="20261122172000 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122172000 +0000" stop="20261122180900 +0000">
+    <title lang="en">CID</title>
+    <desc lang="en">A group of officers who work for the Crime Investigation Department of the police force seek the help of a professional forensic expert and solve various criminal cases.</desc>
+    <credits>
+      <actor>Shivaji Satam</actor>
+      <actor>Aditya Srivastava</actor>
+      <actor>Dayanand Shetty</actor>
+      <director>Christabelle D'souza</director>
+      <director>Suleman Quadri</director>
+      <director>Udayan Pradeep Shukla</director>
+      <director>Santosh Shetty</director>
+      <director>Siba Mishra</director>
+      <director>Salil Singh</director>
+    </credits>
+    <date>1998</date>
+    <category lang="en">Crime drama</category>
+    <category lang="en">Thriller</category>
+    <icon src="http://dtil.tmsimg.com/assets/p28962935_b_h11_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <rating system="Australian Classification Board">
+      <value>PG</value>
+    </rating>
+    <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
+      <value>A14</value>
+    </rating>
+    <rating system="Kijkwijzer">
+      <value>12</value>
+    </rating>
+    <rating system="방송통신심의위원회">
+      <value>19</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122180900 +0000" stop="20261122183500 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122183500 +0000" stop="20261122190000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122190000 +0000" stop="20261122193200 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122193200 +0000" stop="20261122202600 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122202600 +0000" stop="20261122212000 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122212000 +0000" stop="20261122220900 +0000">
+    <title lang="en">CID</title>
+    <desc lang="en">A group of officers who work for the Crime Investigation Department of the police force seek the help of a professional forensic expert and solve various criminal cases.</desc>
+    <credits>
+      <actor>Shivaji Satam</actor>
+      <actor>Aditya Srivastava</actor>
+      <actor>Dayanand Shetty</actor>
+      <director>Christabelle D'souza</director>
+      <director>Suleman Quadri</director>
+      <director>Udayan Pradeep Shukla</director>
+      <director>Santosh Shetty</director>
+      <director>Siba Mishra</director>
+      <director>Salil Singh</director>
+    </credits>
+    <date>1998</date>
+    <category lang="en">Crime drama</category>
+    <category lang="en">Thriller</category>
+    <icon src="http://dtil.tmsimg.com/assets/p28962935_b_h11_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <rating system="Australian Classification Board">
+      <value>PG</value>
+    </rating>
+    <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
+      <value>A14</value>
+    </rating>
+    <rating system="Kijkwijzer">
+      <value>12</value>
+    </rating>
+    <rating system="방송통신심의위원회">
+      <value>19</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122220900 +0000" stop="20261122223500 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122223500 +0000" stop="20261122230000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122230000 +0000" stop="20261122233200 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261122233200 +0000" stop="20261123002600 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123002600 +0000" stop="20261123012000 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123012000 +0000" stop="20261123020900 +0000">
+    <title lang="en">CID</title>
+    <desc lang="en">A group of officers who work for the Crime Investigation Department of the police force seek the help of a professional forensic expert and solve various criminal cases.</desc>
+    <credits>
+      <actor>Shivaji Satam</actor>
+      <actor>Aditya Srivastava</actor>
+      <actor>Dayanand Shetty</actor>
+      <director>Christabelle D'souza</director>
+      <director>Suleman Quadri</director>
+      <director>Udayan Pradeep Shukla</director>
+      <director>Santosh Shetty</director>
+      <director>Siba Mishra</director>
+      <director>Salil Singh</director>
+    </credits>
+    <date>1998</date>
+    <category lang="en">Crime drama</category>
+    <category lang="en">Thriller</category>
+    <icon src="http://dtil.tmsimg.com/assets/p28962935_b_h11_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <rating system="Australian Classification Board">
+      <value>PG</value>
+    </rating>
+    <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
+      <value>A14</value>
+    </rating>
+    <rating system="Kijkwijzer">
+      <value>12</value>
+    </rating>
+    <rating system="방송통신심의위원회">
+      <value>19</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123020900 +0000" stop="20261123023500 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123023500 +0000" stop="20261123030000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123030000 +0000" stop="20261123033200 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123033200 +0000" stop="20261123042600 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123042600 +0000" stop="20261123052000 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123052000 +0000" stop="20261123060900 +0000">
+    <title lang="en">CID</title>
+    <desc lang="en">A group of officers who work for the Crime Investigation Department of the police force seek the help of a professional forensic expert and solve various criminal cases.</desc>
+    <credits>
+      <actor>Shivaji Satam</actor>
+      <actor>Aditya Srivastava</actor>
+      <actor>Dayanand Shetty</actor>
+      <director>Christabelle D'souza</director>
+      <director>Suleman Quadri</director>
+      <director>Udayan Pradeep Shukla</director>
+      <director>Santosh Shetty</director>
+      <director>Siba Mishra</director>
+      <director>Salil Singh</director>
+    </credits>
+    <date>1998</date>
+    <category lang="en">Crime drama</category>
+    <category lang="en">Thriller</category>
+    <icon src="http://dtil.tmsimg.com/assets/p28962935_b_h11_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <rating system="Australian Classification Board">
+      <value>PG</value>
+    </rating>
+    <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
+      <value>A14</value>
+    </rating>
+    <rating system="Kijkwijzer">
+      <value>12</value>
+    </rating>
+    <rating system="방송통신심의위원회">
+      <value>19</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123060900 +0000" stop="20261123063500 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123063500 +0000" stop="20261123070000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123070000 +0000" stop="20261123073200 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123073200 +0000" stop="20261123082600 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123082600 +0000" stop="20261123092000 +0000">
+    <title lang="en">Adalat</title>
+    <desc lang="en">Lawyer K.D. Pathak takes up the challenge of defending the accused by personally investigating the crime.</desc>
+    <credits>
+      <actor>Ronit Roy</actor>
+      <actor>Mushtaq Khan</actor>
+    </credits>
+    <date>2010</date>
+    <category lang="en">Drama</category>
+    <icon src="http://dtil.tmsimg.com/assets/p13170722_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123092000 +0000" stop="20261123100900 +0000">
+    <title lang="en">CID</title>
+    <desc lang="en">A group of officers who work for the Crime Investigation Department of the police force seek the help of a professional forensic expert and solve various criminal cases.</desc>
+    <credits>
+      <actor>Shivaji Satam</actor>
+      <actor>Aditya Srivastava</actor>
+      <actor>Dayanand Shetty</actor>
+      <director>Christabelle D'souza</director>
+      <director>Suleman Quadri</director>
+      <director>Udayan Pradeep Shukla</director>
+      <director>Santosh Shetty</director>
+      <director>Siba Mishra</director>
+      <director>Salil Singh</director>
+    </credits>
+    <date>1998</date>
+    <category lang="en">Crime drama</category>
+    <category lang="en">Thriller</category>
+    <icon src="http://dtil.tmsimg.com/assets/p28962935_b_h11_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>PG</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVPG</value>
+    </rating>
+    <rating system="Australian Classification Board">
+      <value>PG</value>
+    </rating>
+    <rating system="Departamento de Justiça, Classificação, Títulos e Qualificação">
+      <value>A14</value>
+    </rating>
+    <rating system="Kijkwijzer">
+      <value>12</value>
+    </rating>
+    <rating system="방송통신심의위원회">
+      <value>19</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123100900 +0000" stop="20261123103500 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123103500 +0000" stop="20261123110000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123110000 +0000" stop="20261123113000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123113000 +0000" stop="20261123115500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123115500 +0000" stop="20261123121900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123121900 +0000" stop="20261123124300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123124300 +0000" stop="20261123130900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123130900 +0000" stop="20261123133800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123133800 +0000" stop="20261123143000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123143000 +0000" stop="20261123150000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123150000 +0000" stop="20261123153000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123153000 +0000" stop="20261123155500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123155500 +0000" stop="20261123161900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123161900 +0000" stop="20261123164300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123164300 +0000" stop="20261123170900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123170900 +0000" stop="20261123173800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123173800 +0000" stop="20261123183000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123183000 +0000" stop="20261123190000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123190000 +0000" stop="20261123193000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123193000 +0000" stop="20261123195500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123195500 +0000" stop="20261123201900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123201900 +0000" stop="20261123204300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123204300 +0000" stop="20261123210900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123210900 +0000" stop="20261123213800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123213800 +0000" stop="20261123223000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123223000 +0000" stop="20261123230000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123230000 +0000" stop="20261123233000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123233000 +0000" stop="20261123235500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261123235500 +0000" stop="20261124001900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124001900 +0000" stop="20261124004300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124004300 +0000" stop="20261124010900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124010900 +0000" stop="20261124013800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124013800 +0000" stop="20261124023000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124023000 +0000" stop="20261124030000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124030000 +0000" stop="20261124033000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124033000 +0000" stop="20261124035500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124035500 +0000" stop="20261124041900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124041900 +0000" stop="20261124044300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124044300 +0000" stop="20261124050900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124050900 +0000" stop="20261124053800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124053800 +0000" stop="20261124063000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124063000 +0000" stop="20261124070000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124070000 +0000" stop="20261124073000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124073000 +0000" stop="20261124075500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124075500 +0000" stop="20261124081900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124081900 +0000" stop="20261124084300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124084300 +0000" stop="20261124090900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124090900 +0000" stop="20261124093800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124093800 +0000" stop="20261124103000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124103000 +0000" stop="20261124110000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124110000 +0000" stop="20261124113000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124113000 +0000" stop="20261124115500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124115500 +0000" stop="20261124121900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124121900 +0000" stop="20261124124300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124124300 +0000" stop="20261124130900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124130900 +0000" stop="20261124133800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124133800 +0000" stop="20261124143000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124143000 +0000" stop="20261124150000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124150000 +0000" stop="20261124153000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124153000 +0000" stop="20261124155500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124155500 +0000" stop="20261124161900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124161900 +0000" stop="20261124164300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124164300 +0000" stop="20261124170900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124170900 +0000" stop="20261124173800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124173800 +0000" stop="20261124183000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124183000 +0000" stop="20261124190000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124190000 +0000" stop="20261124193000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124193000 +0000" stop="20261124195500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124195500 +0000" stop="20261124201900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124201900 +0000" stop="20261124204300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124204300 +0000" stop="20261124210900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124210900 +0000" stop="20261124213800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124213800 +0000" stop="20261124223000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124223000 +0000" stop="20261124230000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124230000 +0000" stop="20261124233000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124233000 +0000" stop="20261124235500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261124235500 +0000" stop="20261125001900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125001900 +0000" stop="20261125004300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125004300 +0000" stop="20261125010900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125010900 +0000" stop="20261125013800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125013800 +0000" stop="20261125023000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125023000 +0000" stop="20261125030000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125030000 +0000" stop="20261125033000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125033000 +0000" stop="20261125035500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125035500 +0000" stop="20261125041900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125041900 +0000" stop="20261125044300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125044300 +0000" stop="20261125050900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125050900 +0000" stop="20261125053800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125053800 +0000" stop="20261125063000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125063000 +0000" stop="20261125070000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125070000 +0000" stop="20261125073000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125073000 +0000" stop="20261125075500 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125075500 +0000" stop="20261125081900 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125081900 +0000" stop="20261125084300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125084300 +0000" stop="20261125090900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125090900 +0000" stop="20261125093800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125093800 +0000" stop="20261125103000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125103000 +0000" stop="20261125110000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125110000 +0000" stop="20261125112900 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125112900 +0000" stop="20261125115300 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125115300 +0000" stop="20261125121800 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125121800 +0000" stop="20261125124300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125124300 +0000" stop="20261125130900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125130900 +0000" stop="20261125133800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125133800 +0000" stop="20261125143000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125143000 +0000" stop="20261125150000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125150000 +0000" stop="20261125152900 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125152900 +0000" stop="20261125155300 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125155300 +0000" stop="20261125161800 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125161800 +0000" stop="20261125164300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125164300 +0000" stop="20261125170900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125170900 +0000" stop="20261125173800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125173800 +0000" stop="20261125183000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125183000 +0000" stop="20261125190000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125190000 +0000" stop="20261125192900 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125192900 +0000" stop="20261125195300 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125195300 +0000" stop="20261125201800 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125201800 +0000" stop="20261125204300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125204300 +0000" stop="20261125210900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125210900 +0000" stop="20261125213800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125213800 +0000" stop="20261125223000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125223000 +0000" stop="20261125230000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125230000 +0000" stop="20261125232900 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125232900 +0000" stop="20261125235300 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261125235300 +0000" stop="20261126001800 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126001800 +0000" stop="20261126004300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126004300 +0000" stop="20261126010900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126010900 +0000" stop="20261126013800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126013800 +0000" stop="20261126023000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126023000 +0000" stop="20261126030000 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126030000 +0000" stop="20261126032900 +0000">
+    <title lang="en">Punyashlok Ahilya Bai</title>
+    <desc lang="en">A period drama set in the 18th century, based on the life of Ahilyabai Holkar, who, alongside her father-in-law Malhar Rao Holkar, defied the pre-defined norms of the patriarchal society.</desc>
+    <date>2026</date>
+    <icon src="http://dtil.tmsimg.com/assets/p32701839_b_h8_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126032900 +0000" stop="20261126035300 +0000">
+    <title lang="en">Taarak Mehta Ka Ooltah Chashmah</title>
+    <desc lang="en">The residents of a housing society help each other find solutions when they face common real-life challenges and get involved in sticky situations.</desc>
+    <credits>
+      <actor>Dilip Joshi</actor>
+      <actor>Nitish Bhaluni</actor>
+      <actor>Amit Bhatt</actor>
+      <director>Dharmesh Mehta</director>
+      <director>Harshad Joshi</director>
+    </credits>
+    <date>2008</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://dtil.tmsimg.com/assets/p12557899_b_h11_ad.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126035300 +0000" stop="20261126041800 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126041800 +0000" stop="20261126044300 +0000">
+    <title lang="en">Baal Veer</title>
+    <desc lang="en">Following the magical adventures of Baal Veer in fairyland.</desc>
+    <credits>
+      <actor>Dev Joshi</actor>
+      <actor>Anushka Sen</actor>
+      <actor>Rudra Soni</actor>
+      <director>Sanjay Satvase</director>
+      <director>Kushal Awasthi</director>
+      <director>Ambare P Sachin</director>
+      <director>Amarpreet G.S. Chhabra</director>
+      <director>Vijay Saini</director>
+      <director>Nilesh Ambekar</director>
+    </credits>
+    <date>2012</date>
+    <category lang="en">Fantasy</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30034978_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126044300 +0000" stop="20261126050900 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126050900 +0000" stop="20261126053800 +0000">
+    <title lang="en">Mere Sai - Shraddha Aur Saburi</title>
+    <desc lang="en">After witnessing the injustice due to religious and caste discrimination, Sai Baba faces several trials and tribulations on his journey to bring peace and love to society.</desc>
+    <credits>
+      <actor>Vaibhav Mangle</actor>
+      <actor>Tushar Dalvi</actor>
+      <actor>Kishori Godbole</actor>
+      <director>Sachin P. Ambre</director>
+      <director>Harsh B. Agrawal</director>
+      <director>Mukesh Singh</director>
+    </credits>
+    <date>2017</date>
+    <category lang="en">Historical drama</category>
+    <category lang="en">Religious</category>
+    <icon src="http://dtil.tmsimg.com/assets/p14597968_b_h10_ab.jpg?w=960&amp;h=540" />
+    <previously-shown />
+  </programme>
+  <programme channel="Sony.KAL.us2" start="20261126053800 +0000" stop="20261126063000 +0000">
+    <title lang="en">Crime Patrol Dial 100</title>
+    <desc lang="en">A re-enactment of real-life heinous crimes inflicted upon innocent individuals, including murder, kidnapping, theft and forgery.</desc>
+    <credits>
+      <actor>Satyajeet Rajput</actor>
+      <actor>Sameer Deshpande</actor>
+      <actor>Rose Laskar</actor>
+      <director>Satish Shukla</director>
+      <director>Shailendra Singh Tomar</director>
+      <director>Kevin M. Couto</director>
+    </credits>
+    <date>2015</date>
+    <category lang="en">Crime</category>
+    <category lang="en">Documentary</category>
+    <icon src="http://dtil.tmsimg.com/assets/p30009342_b_h10_aa.jpg?w=960&amp;h=540" />
+    <previously-shown />
+    <rating system="Canadian Parental Rating">
+      <value>G</value>
+    </rating>
+    <rating system="USA Parental Rating">
+      <value>TVG</value>
+    </rating>
+    <rating system="Régie du cinéma">
+      <value>G</value>
+    </rating>
+  </programme>
+</tv>
